@@ -3,7 +3,7 @@
 No, it has nothing to do with the big phallic giant, but everything to do with the [Book of Cerne](https://en.wikipedia.org/wiki/Book_of_Cerne),
 a ninth-century prayerbook, the main script of which is a beautiful pointed insular minuscule. Like my other script fonts (e.g. Eadui and Cissanthemos),
 it will default to a modern mode more-or-less comprehensible to modern readers, but it can easily be switched to historical mode, in which it will
-accurately reproduce the look of the early medieval script. Unlike my other script fonts, this is a color font. The image below illustrates modern mode.
+accurately reproduce the look of the early medieval script. Unlike my other scripts, this is a color font. The image below illustrates modern mode.
 
 ![Sample of Cerne Font](images/Cerne-sample.jpg)
 
