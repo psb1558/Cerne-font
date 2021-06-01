@@ -11,7 +11,7 @@ accurately reproduce the look of the early medieval script. Unlike my other scri
 
 ![Sample of Cerne Font](images/Cerne-sample.jpg)
 
-And here is a prose sample (still in modern mode), though there are still miles to go:
+And here is a prose sample (in historic mode), though there are still miles to go:
 
 ![Sample of Cerne Font](images/Cerne-prose-sample.jpg)
 
