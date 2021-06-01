@@ -7,7 +7,7 @@ Like my other script fonts (e.g.
 [Eadui](https://github.com/psb1558/Eadui-Font) and
 [Cissanthemos](https://github.com/psb1558/Cissanthemos-font)),
 it will default to a modern mode more-or-less comprehensible to modern readers, but it can easily be switched to historical mode, in which it will
-accurately reproduce the look of the early medieval script. Unlike my other scripts, this is a color font. The image below illustrates modern mode.
+accurately reproduce the look of the early medieval script. Unlike my other scripts, this is a color font, with color highlights for capitals (and, eventually, a selection of other characters) and a text color based on the colors found in the manuscript. The image below illustrates modern mode.
 
 ![Sample of Cerne Font](images/Cerne-sample.jpg)
 
