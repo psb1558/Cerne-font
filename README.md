@@ -1,6 +1,6 @@
 # The Cerne font
 
-No, it has nothing to do with the big phallic giant, but everything to do with the [Book of Cerne](https://en.wikipedia.org/wiki/Book_of_Cerne),
+No, it has nothing to do with the phallic giant, but everything to do with the [Book of Cerne](https://en.wikipedia.org/wiki/Book_of_Cerne),
 a ninth-century prayerbook, the main script of which is a beautiful pointed insular minuscule,
 cursive in appearance (though it is in fact not heavily ligatured) and informal.
 Like my other script fonts (e.g.
