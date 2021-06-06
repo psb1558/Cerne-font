@@ -41,8 +41,10 @@ $(document).ready(function(){
 	// Clear the menus and boxes (in case the page is being reloaded) and
 	// display the default (modern English) text.
 
-	var fstring = "\"ss08\" on, \"dlig\" on";
-	$("#textbox").css("font-feature-settings", fstring).text(modtext);
+//	var fstring = "\"ss08\" on, \"dlig\" on";
+  var fstring = "";
+//	$("#textbox").css("font-feature-settings", fstring).text(modtext);
+	$("#textbox").text(modtext);
 	$( "input[type='checkbox']" ).prop("checked", false);
 
 	function selectElement(id, valueToSelect) {
@@ -51,6 +53,7 @@ $(document).ready(function(){
 	}
 
 	selectElement("languages","ModEnglish");
+	selectElement("fontsizes","3em");
 
 	// The "languages" dropdown menu selects a text and also
 	// sets the "lang" attribute for the text box.
@@ -64,19 +67,19 @@ $(document).ready(function(){
 
 		switch ( $("#languages option:selected").attr("value") ) {
 			case "ModEnglish":
-				$( "input[type='checkbox']" ).not("#ss08, #dlig").prop("checked", false);
-				$("#ss08, #dlig").prop("checked",true).change();
+				// $( "input[type='checkbox']" ).not("#ss08, #dlig").prop("checked", false);
+				// $("#ss08, #dlig").prop("checked",true).change();
 				break;
 			case "OldEnglish":
 				// lang code is ang, but we use en to trigger English thorn and eth.
 				t = oldenglishtext;
-				$( "input[type='checkbox']" ).prop("checked", false).first().change();
+				// $( "input[type='checkbox']" ).prop("checked", false).first().change();
 				break;
 			case "Latin":
 				l = "la"
 				t = latintext;
-				$( "input[type='checkbox']" ).not("#hist").prop("checked", false);
-				$("#hist").prop("checked",true).change();
+				// $( "input[type='checkbox']" ).not("#hist").prop("checked", false);
+				// $("#hist").prop("checked",true).change();
 				break;
 		}
 
@@ -114,7 +117,8 @@ $(document).ready(function(){
 		$("input").each(function() {
 			var tag = $(this).attr("id");
 			if ($( this ).is(":checked")) {
-				;
+				if ( tag === "morefeat" ) {
+					$(".hid").css("display", "inline");
 				}
 				else if ( tag.length == 5 ) {
 					var basetag = tag.substring(0,4);
@@ -125,6 +129,9 @@ $(document).ready(function(){
 					fstring = featureString(fstring, tag, "on");
 				}
 			}
+			else if ( tag === "morefeat" ) {
+				$(".hid").css("display", "none");
+			}
 		});
 
 		if (fstring.length == 0)
@@ -133,4 +140,4 @@ $(document).ready(function(){
 		$("#textbox").css("font-feature-settings", fstring);
 
 	});
-});
+	});

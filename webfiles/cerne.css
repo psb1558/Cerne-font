@@ -1,18 +1,21 @@
 @font-face {
   font-family: 'JuniusX';
-  src:url("./webfiles/JuniusX-Regular.woff2");
+  src:url("./JuniusX-Regular.woff2");
   font-weight: normal;
   font-style:normal;
 }
+/*
 @font-face {
   font-family: 'JuniusX';
-  src:url("./webfiles/JuniusX-Bold.woff2");
+  src:url("./JuniusX-Bold.woff2");
   font-weight: bold;
   font-style:normal;
+}
+*/
 
 @font-face {
   font-family: 'Cerne';
-  src:url("./webfiles/Cerne.woff2");
+  src:url("./Cerne.woff2");
   font-weight: normal;
   font-style:normal;
 }
@@ -24,7 +27,7 @@
 
   .headerbox {
       background-color: lightgray;
-      padding: 50px;
+      padding: 30px;
   }
 
   .controlbox {
@@ -47,7 +50,7 @@
       overflow-y: auto;
       float: right;
       border: 1px solid black;
-      font-size: 1.5em;
+      font-size: 3em;
       padding: 10px;
       margin-bottom: 20px;
   }
@@ -70,9 +73,9 @@
   }
 
   h1 {
-      font-family: JuniusX;
-      font-weight: 700;
-      font-size: 3em;
+      font-family: Cerne;
+      font-weight: 400;
+      font-size: 5em;
   }
 
   p {

@@ -16,15 +16,23 @@
       ninth-century prayerbook the main script of which is a beautiful
       pointed insular minuscule, cursive in appearance and yet formal.
       The font has two modes: modern (the default), in which letters likely
-      to confuse modern readers have been replaced, and historic, which
+      to confuse modern readers have been replaced with more familiar shapes,
+      and historic, which
       approximates the look of the original script. It is a color font: the
       script is reddish brown, capitals are filled by default with pale red,
       yellow, green or blue, and lowercase letters, accents, and punctuation
       can be filled as well (but by default are not).
     </p>
     <p>
+      The browsers I have tested all support color fonts: Firefox, Safari, Chrome,
+      Edge. If your browser is not displaying color, but rather plain black text,
+      try upgrading your browser to the latest version. If that fails, please
+      open an <a href="https://github.com/psb1558/Cerne-font">issue</a> at the
+      development site.
+    </p>
+    <p>
       The box below is editable: play with English, Latin or Old English text
-      or type or paste your own, and play with the colors by checking the
+      or enter (type or paste) your own. Have fun with the colors by checking the
       various boxes.
     </p>
     <p>
@@ -34,15 +42,15 @@
         <div class="dropdown">
           <label for="fontsizes">Choose a size: </label>
           <select id="fontsizes" name="fontsizes">
-            <option value="1em">1em</option>
-            <option value="1.25em">1.25em</option>
-            <option value="1.5em" selected="selected">1.5em</option>
-            <option value="1.75em">1.75em</option>
-            <option value="2em">2em</option>
-            <option value="2.25em">2.25em</option>
             <option value="2.5em">2.5em</option>
             <option value="2.75em">2.75em</option>
-            <option value="3em">3em</option>
+            <option value="3em" selected="selected">3em</option>
+            <option value="3.25em">3.25em</option>
+            <option value="3.5em">3.5em</option>
+            <option value="3.75em">3.75em</option>
+            <option value="4em">4em</option>
+            <option value="4.25em">4.25em</option>
+            <option value="4.5em">4.5em</option>
           </select>
         </div>
       <div class="dropdown">
@@ -118,7 +126,7 @@
         </span>
 
         <span class="check"><input type="checkbox" id="cv16" name="cv16"/><label
-          for="cv16" data-tooltip="l (cv16)"> a</label>
+          for="cv16" data-tooltip="l (cv16)"> l</label>
         </span>
 
         <span class="check"><input type="checkbox" id="cv18" name="cv18"/><label
@@ -174,15 +182,19 @@
         </span>
 
         <span class="check"><input type="checkbox" id="cv32" name="cv32"/><label
-          for="cv32" data-tooltip="y (cv32)"> y</label>
+          for="cv32" data-tooltip="z (cv32)"> z</label>
         </span>
 
         <span class="check"><input type="checkbox" id="cv40" name="cv40"/><label
           for="cv40" data-tooltip="& (cv40)"> &amp;</label>
         </span>
 
-        <span class="check"><input type="checkbox" id="cv42" name="cv42"/><label
-          for="cv42" data-tooltip="& (cv42)"> &amp;</label>
+        <span class="check"><input type="checkbox" id="cv48" name="cv48"/><label
+          for="cv48" data-tooltip="accents (cv48)"> accents</label>
+        </span>
+
+        <span class="check"><input type="checkbox" id="cv79" name="cv79"/><label
+          for="cv79" data-tooltip="punctuation (cv79)"> punctuation (cv79)</label>
         </span>
 
   </div>
