@@ -22,7 +22,7 @@ can enter a text of your choice, switch back and forth between modern and
 historical mode, and play with the colors.
 
 The font will come in two versions: a compact webfont with a COLR table, usable
-in all major browsers, and a desktop version with both CLOR and SVG tables,
+in all major browsers, and a desktop version with both COLR and SVG tables,
 usable in LibreOffice, Microsoft Word, the Adobe Creative Suites, and most
 other software supporting color fonts. The font will also work in apps that do
 not support color, but the colors will not show.
