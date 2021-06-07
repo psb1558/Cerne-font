@@ -21,4 +21,9 @@ Check out the [specimen page](https://psb1558.github.io/Cerne-font/), where you
 can enter a text of your choice, switch back and forth between modern and
 historical mode, and play with the colors.
 
-The font is not yet ready to use (many characters missing! horrible metrics!). ETA for an initial release: Late summer 2021.
+The font will come in two versions: a compact webfont with a COLR table, usable
+in all major browsers, and a desktop version with both CLOR and SVG tables,
+usable in LibreOffice, Microsoft Word, and the Adobe Creative Suite.
+
+The current version is a beta, version 0.001, neither complete nor guaranteed
+to be stable. ETA for an initial release: Late summer 2021.
