@@ -27,5 +27,5 @@ usable in LibreOffice, Microsoft Word, the Adobe Creative Suites, and most
 other software supporting color fonts. The font will also work in apps that do
 not support color, but the colors will not show.
 
-The current version is a beta, version 0.004, neither complete nor guaranteed
+The current version is a beta, version 0.005, neither complete nor guaranteed
 to be stable. ETA for an initial release: late summer 2021.
