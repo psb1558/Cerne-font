@@ -21,7 +21,7 @@ name = openTypeNameLicenseURL;
 value = "http://scripts.sil.org/OFL";
 }
 );
-date = "2021-06-10 11:07:16 +0000";
+date = "2021-06-10 12:02:08 +0000";
 designer = "Peter S. Baker";
 designerURL = "https://github.com/psb1558/Cerne-font";
 familyName = Cerne;
@@ -85,7 +85,7 @@ code = "lookup calt_0 {\012\012  # Letter-pairs beginning with e / eogonek / ae\
 name = calt;
 },
 {
-code = "# Trying to keep the collection of ligatures relatively small. Favor instead\012# contextual alternates as producing both a smaller font file and a more\012# flexible program.\012\012# Three elements:\012  sub e.rfmnpr sinsular.le t by e_longs_t ;\012  sub e.rfmnpr sinsular.le [ t.ra t.lalt.ra ] by e_longs_t.ra ;\012  sub e.rfmnpr sinsular.le t.rhighe by e_longs_t.rhighe ;\012  sub e.rfmnpr sinsular.le t.ri by e_longs_t.ri ;\012  sub ae.rfmnpr sinsular.le t by ae_longs_t ;\012  sub ae.rfmnpr sinsular.le t.ra by ae_longs_t.ra ;\012  sub ae.rfmnpr sinsular.le t.rhighe by ae_longs_t.rhighe ;\012  sub ae.rfmnpr sinsular.le t.ri by ae_longs_t.ri ;\012  sub [e e.ralt] [e e.ralt e.rfmnpr ] [ f f.le ] by e_e_f ;\012  sub [e e.ralt] [e e.ralt e.rfmnpr ] g by e_e_g ;\012  sub [e e.ralt] [e e.ralt e.rfmnpr ] [ m m.le ] by e_e_m ;\012  sub [e e.ralt] [e e.ralt e.rfmnpr ] [ n n.le ] by e_e_n ;\012  sub [e e.ralt] [e e.ralt e.rfmnpr ] [ p p.le ] by e_e_p ;\012  sub [e e.ralt] [e e.ralt e.rfmnpr ] [ r r.le ] by e_e_r ;\012  sub [e e.ralt] [e e.ralt] t by e_e_t ;\012  sub e [ t t.rt ] [ t t.lt ] by e_t_t ;\012  sub e [ t t.rt ] [ t.ra t.lt.ra ] by e_t_t.ra ;\012  sub e [ t t.rt ] [ t.ri t.lt.ri ] by e_t_t.ri ;\012  sub e [ t t.rt ] [ t.rhighe t.lt.rhighe ] by e_t_t.rhighe ;\012  sub ae [ t t.rt ] [ t t.lt ] by ae_t_t ;\012  sub ae [ t t.rt ] [ t.ra t.lt.ra ] by ae_t_t.ra ;\012  sub ae [ t t.rt ] [ t.rhighe t.lt.rhighe ] by ae_t_t.rhighe ;\012  sub ae [ t t.rt ] [ t.ri t.lt.ri ] by ae_t_t.ri ;\012\012# Two elements:\012  sub sinsular t by longs_t ;\012  sub sinsular t.ra by longs_t.ra ;\012  sub sinsular t.ri by longs_t.ri ;\012  sub sinsular t.rhighe by longs_t.rhighe ;\012  sub a x by a_x ;\012  sub ae c by ae_c ;\012  sub ae g by ae_g ;\012  sub ae ginsular by ae_g ;\012  sub ae t by ae_t ;\012  sub ae t.ra by ae_t.ra ;\012  sub ae t.ri by ae_t.ri ;\012  sub ae t.rhighe by ae_t.rhighe ;\012  sub ae x by ae_x ;\012  sub e c by e_c ;\012  sub e g by e_g ;\012  sub e ginsular by e_g ;\012  sub e t by e_t ;\012  sub e t.ra by e_t.ra ;\012  sub e t.rhighe by e_t.rhighe ;\012  sub e t.ri by e_t.ri ;\012  sub e x by e_x ;\012  sub E r by E_r ;\012  sub E.ss02 r by E_r.ss02 ;\012  sub E.ss03 r by E_r.ss03 ;\012  sub E rinsular by E_rinsular ;\012  sub E rinsular.rt by E_rinsular.rt ;\012  sub E.ss02 rinsular by E_rinsular.ss02 ;\012  sub E.ss03 rinsular by E_rinsular.ss03 ;\012  sub E.ss02 rinsular.rt by E_rinsular.rt.ss02 ;\012  sub E.ss03 rinsular.rt by E_rinsular.rt.ss03 ;\012  sub E x by E_x ;\012  sub E.ss02 x by E_x.ss02 ;\012  sub E.ss03 x by E_x.ss03 ;\012\012";
+code = "# Trying to keep the collection of ligatures relatively small. Favor instead\012# contextual alternates as producing both a smaller font file and a more\012# flexible program.\012\012# Three elements:\012  sub e.rfmnpr sinsular.le [ t t.lalt ] by e_longs_t ;\012  sub e.rfmnpr sinsular.le [ t.ra t.lalt.ra ] by e_longs_t.ra ;\012  sub e.rfmnpr sinsular.le [ t.rhighe t.lalt.rhighe ] by e_longs_t.rhighe ;\012  sub e.rfmnpr sinsular.le [ t.ri t.lalt.ri ] by e_longs_t.ri ;\012  sub ae.rfmnpr sinsular.le [ t t.lalt ] by ae_longs_t ;\012  sub ae.rfmnpr sinsular.le [ t.ra t.lalt.ra ] by ae_longs_t.ra ;\012  sub ae.rfmnpr sinsular.le [ t.rhighe t.lalt.rhighe ] by ae_longs_t.rhighe ;\012  sub ae.rfmnpr sinsular.le [ t.ri t.lalt.ri ] by ae_longs_t.ri ;\012  sub [e e.ralt] [e e.ralt e.rfmnpr ] [ f f.le ] by e_e_f ;\012  sub [e e.ralt] [e e.ralt e.rfmnpr ] g by e_e_g ;\012  sub [e e.ralt] [e e.ralt e.rfmnpr ] [ m m.le ] by e_e_m ;\012  sub [e e.ralt] [e e.ralt e.rfmnpr ] [ n n.le ] by e_e_n ;\012  sub [e e.ralt] [e e.ralt e.rfmnpr ] [ p p.le ] by e_e_p ;\012  sub [e e.ralt] [e e.ralt e.rfmnpr ] [ r r.le ] by e_e_r ;\012  sub [e e.ralt] [e e.ralt] t by e_e_t ;\012  sub e [ t t.rt ] [ t t.lt ] by e_t_t ;\012  sub e [ t t.rt ] [ t.ra t.lt.ra ] by e_t_t.ra ;\012  sub e [ t t.rt ] [ t.ri t.lt.ri ] by e_t_t.ri ;\012  sub e [ t t.rt ] [ t.rhighe t.lt.rhighe ] by e_t_t.rhighe ;\012  sub ae [ t t.rt ] [ t t.lt ] by ae_t_t ;\012  sub ae [ t t.rt ] [ t.ra t.lt.ra ] by ae_t_t.ra ;\012  sub ae [ t t.rt ] [ t.rhighe t.lt.rhighe ] by ae_t_t.rhighe ;\012  sub ae [ t t.rt ] [ t.ri t.lt.ri ] by ae_t_t.ri ;\012\012# Two elements:\012  sub sinsular t by longs_t ;\012  sub sinsular t.ra by longs_t.ra ;\012  sub sinsular t.ri by longs_t.ri ;\012  sub sinsular t.rhighe by longs_t.rhighe ;\012  sub a x by a_x ;\012  sub ae c by ae_c ;\012  sub ae g by ae_g ;\012  sub ae ginsular by ae_g ;\012  sub ae t by ae_t ;\012  sub ae t.ra by ae_t.ra ;\012  sub ae t.ri by ae_t.ri ;\012  sub ae t.rhighe by ae_t.rhighe ;\012  sub ae x by ae_x ;\012  sub e c by e_c ;\012  sub e g by e_g ;\012  sub e ginsular by e_g ;\012  sub e t by e_t ;\012  sub e t.ra by e_t.ra ;\012  sub e t.rhighe by e_t.rhighe ;\012  sub e t.ri by e_t.ri ;\012  sub e x by e_x ;\012  sub E r by E_r ;\012  sub E.ss02 r by E_r.ss02 ;\012  sub E.ss03 r by E_r.ss03 ;\012  sub E rinsular by E_rinsular ;\012  sub E rinsular.rt by E_rinsular.rt ;\012  sub E.ss02 rinsular by E_rinsular.ss02 ;\012  sub E.ss03 rinsular by E_rinsular.ss03 ;\012  sub E.ss02 rinsular.rt by E_rinsular.rt.ss02 ;\012  sub E.ss03 rinsular.rt by E_rinsular.rt.ss03 ;\012  sub E x by E_x ;\012  sub E.ss02 x by E_x.ss02 ;\012  sub E.ss03 x by E_x.ss03 ;\012\012";
 name = liga;
 },
 {
@@ -125447,7 +125447,7 @@ value = 0;
 },
 {
 name = "Export SVG Table";
-value = 0;
+value = 1;
 },
 {
 name = "Export COLR Table";
@@ -125455,7 +125455,7 @@ value = 1;
 },
 {
 name = "Color Layers to SVG";
-value = 0;
+value = 1;
 },
 {
 name = "Disable Subroutines";
@@ -125603,5 +125603,5 @@ e_t = -20;
 };
 unitsPerEm = 2048;
 versionMajor = 0;
-versionMinor = 3;
+versionMinor = 4;
 }
