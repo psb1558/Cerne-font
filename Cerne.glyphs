@@ -1,7 +1,7 @@
 {
 .appVersion = "1350";
 DisplayStrings = (
-"aq/space macaques"
+"considerable/space"
 );
 classes = (
 {
@@ -82,7 +82,7 @@ name = openTypeNameLicenseURL;
 value = "http://scripts.sil.org/OFL";
 }
 );
-date = "2021-06-10 12:02:08 +0000";
+date = "2021-06-12 20:43:24 +0000";
 designer = "Peter S. Baker";
 designerURL = "https://github.com/psb1558/Cerne-font";
 familyName = Cerne;
@@ -152,7 +152,7 @@ name = ss04;
 notes = "Name: Word-final forms";
 },
 {
-code = "sub idotless by idotless.alt ;\012sub u by u.alt2 ;\012sub y by y.alt ;\012";
+code = "sub i by i.alt ;\012sub idotless by idotless.alt ;\012sub u by u.alt2 ;\012sub y by y.alt ;\012";
 name = ss05;
 notes = "Name: Miscellaneous alternates";
 },
@@ -73125,100 +73125,6 @@ leftKerningGroup = t;
 rightKerningGroup = t;
 },
 {
-glyphname = i.alt.le;
-lastChange = "2021-06-12 16:44:18 +0000";
-layers = (
-{
-layerId = "3A120C99-D056-4211-BE1A-9D4BB1803F4A";
-paths = (
-{
-closed = 1;
-nodes = (
-"-102 395 OFFCURVE",
-"-37 447 OFFCURVE",
-"-6 447 CURVE SMOOTH",
-"33 447 OFFCURVE",
-"59 377 OFFCURVE",
-"72 332 CURVE SMOOTH",
-"99 233 OFFCURVE",
-"125 140 OFFCURVE",
-"125 35 CURVE SMOOTH",
-"125 -73 OFFCURVE",
-"129 -183 OFFCURVE",
-"104 -285 CURVE SMOOTH",
-"79 -396 OFFCURVE",
-"45 -501 OFFCURVE",
-"-1 -600 CURVE",
-"36 -614 LINE",
-"85 -547 OFFCURVE",
-"126 -477 OFFCURVE",
-"155 -401 CURVE SMOOTH",
-"205 -267 OFFCURVE",
-"242 -117 OFFCURVE",
-"242 31 CURVE SMOOTH",
-"242 164 OFFCURVE",
-"204 316 OFFCURVE",
-"155 459 CURVE SMOOTH",
-"143 492 OFFCURVE",
-"125 532 OFFCURVE",
-"89 532 CURVE SMOOTH",
-"43 532 OFFCURVE",
-"-88 440 OFFCURVE",
-"-175 371 CURVE",
-"-160 345 LINE"
-);
-}
-);
-width = 262;
-},
-{
-associatedMasterId = "3A120C99-D056-4211-BE1A-9D4BB1803F4A";
-layerId = "01991D09-0EB3-4BDB-A219-E3679BDE0F08";
-name = "Color 0";
-paths = (
-{
-closed = 1;
-nodes = (
-"-102 395 OFFCURVE",
-"-37 447 OFFCURVE",
-"-6 447 CURVE SMOOTH",
-"33 447 OFFCURVE",
-"59 377 OFFCURVE",
-"72 332 CURVE SMOOTH",
-"99 233 OFFCURVE",
-"125 140 OFFCURVE",
-"125 35 CURVE SMOOTH",
-"125 -73 OFFCURVE",
-"129 -183 OFFCURVE",
-"104 -285 CURVE SMOOTH",
-"79 -396 OFFCURVE",
-"45 -501 OFFCURVE",
-"-1 -600 CURVE",
-"36 -614 LINE",
-"85 -547 OFFCURVE",
-"126 -477 OFFCURVE",
-"155 -401 CURVE SMOOTH",
-"205 -267 OFFCURVE",
-"242 -117 OFFCURVE",
-"242 31 CURVE SMOOTH",
-"242 164 OFFCURVE",
-"204 316 OFFCURVE",
-"155 459 CURVE SMOOTH",
-"143 492 OFFCURVE",
-"125 532 OFFCURVE",
-"89 532 CURVE SMOOTH",
-"43 532 OFFCURVE",
-"-88 440 OFFCURVE",
-"-175 371 CURVE",
-"-160 345 LINE"
-);
-}
-);
-width = 262;
-}
-);
-},
-{
 glyphname = idotless.alt.le;
 lastChange = "2021-06-12 16:54:37 +0000";
 layers = (
@@ -74337,7 +74243,7 @@ rightMetricsKey = p;
 },
 {
 glyphname = r.le;
-lastChange = "2021-06-08 18:39:23 +0000";
+lastChange = "2021-06-12 19:51:36 +0000";
 layers = (
 {
 anchors = (
@@ -74520,6 +74426,7 @@ nodes = (
 width = 627;
 }
 );
+rightKerningGroup = r;
 rightMetricsKey = r;
 },
 {
@@ -83791,6 +83698,101 @@ width = 405;
 );
 leftKerningGroup = e;
 widthMetricsKey = e;
+},
+{
+export = 0;
+glyphname = i.alt.le;
+lastChange = "2021-06-12 19:26:51 +0000";
+layers = (
+{
+layerId = "3A120C99-D056-4211-BE1A-9D4BB1803F4A";
+paths = (
+{
+closed = 1;
+nodes = (
+"-102 395 OFFCURVE",
+"-37 447 OFFCURVE",
+"-6 447 CURVE SMOOTH",
+"33 447 OFFCURVE",
+"59 377 OFFCURVE",
+"72 332 CURVE SMOOTH",
+"99 233 OFFCURVE",
+"125 140 OFFCURVE",
+"125 35 CURVE SMOOTH",
+"125 -73 OFFCURVE",
+"129 -183 OFFCURVE",
+"104 -285 CURVE SMOOTH",
+"79 -396 OFFCURVE",
+"45 -501 OFFCURVE",
+"-1 -600 CURVE",
+"36 -614 LINE",
+"85 -547 OFFCURVE",
+"126 -477 OFFCURVE",
+"155 -401 CURVE SMOOTH",
+"205 -267 OFFCURVE",
+"242 -117 OFFCURVE",
+"242 31 CURVE SMOOTH",
+"242 164 OFFCURVE",
+"204 316 OFFCURVE",
+"155 459 CURVE SMOOTH",
+"143 492 OFFCURVE",
+"125 532 OFFCURVE",
+"89 532 CURVE SMOOTH",
+"43 532 OFFCURVE",
+"-88 440 OFFCURVE",
+"-175 371 CURVE",
+"-160 345 LINE"
+);
+}
+);
+width = 262;
+},
+{
+associatedMasterId = "3A120C99-D056-4211-BE1A-9D4BB1803F4A";
+layerId = "01991D09-0EB3-4BDB-A219-E3679BDE0F08";
+name = "Color 0";
+paths = (
+{
+closed = 1;
+nodes = (
+"-102 395 OFFCURVE",
+"-37 447 OFFCURVE",
+"-6 447 CURVE SMOOTH",
+"33 447 OFFCURVE",
+"59 377 OFFCURVE",
+"72 332 CURVE SMOOTH",
+"99 233 OFFCURVE",
+"125 140 OFFCURVE",
+"125 35 CURVE SMOOTH",
+"125 -73 OFFCURVE",
+"129 -183 OFFCURVE",
+"104 -285 CURVE SMOOTH",
+"79 -396 OFFCURVE",
+"45 -501 OFFCURVE",
+"-1 -600 CURVE",
+"36 -614 LINE",
+"85 -547 OFFCURVE",
+"126 -477 OFFCURVE",
+"155 -401 CURVE SMOOTH",
+"205 -267 OFFCURVE",
+"242 -117 OFFCURVE",
+"242 31 CURVE SMOOTH",
+"242 164 OFFCURVE",
+"204 316 OFFCURVE",
+"155 459 CURVE SMOOTH",
+"143 492 OFFCURVE",
+"125 532 OFFCURVE",
+"89 532 CURVE SMOOTH",
+"43 532 OFFCURVE",
+"-88 440 OFFCURVE",
+"-175 371 CURVE",
+"-160 345 LINE"
+);
+}
+);
+width = 262;
+}
+);
 },
 {
 glyphname = E_r;
@@ -133757,5 +133759,5 @@ e_t = -20;
 };
 unitsPerEm = 2048;
 versionMajor = 0;
-versionMinor = 5;
+versionMinor = 6;
 }
