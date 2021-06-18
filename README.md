@@ -2,7 +2,7 @@
 
 ![Sample of Cerne Font](images/Bede-sample-2.jpg)
 
-No, it has nothing to do with the
+No, it has nothing to do with the infamous
 [phallic giant](https://en.wikipedia.org/wiki/Cerne_Abbas_Giant),
 but everything to do with the
 [Book of Cerne](https://en.wikipedia.org/wiki/Book_of_Cerne),
