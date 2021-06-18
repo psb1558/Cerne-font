@@ -1,6 +1,6 @@
 # The Cerne font
 
-![Sample of Cerne Font](images/Cerne-prose-sample.jpg)
+![Sample of Cerne Font](images/Bede-sample-2.jpg)
 
 No, it has nothing to do with the
 [phallic giant](https://en.wikipedia.org/wiki/Cerne_Abbas_Giant),
