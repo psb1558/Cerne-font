@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Cerne font specimen page</title>
+    <link rel="stylesheet" href="./webfiles/cerne.css"/>
+    <style>
+      p, h2, ul {
+        padding-left: 10%;
+        padding-right: 10%;
+        font-feature-settings: "pnum", "onum";
+      }
+
+      p, ul { font-size: 1.75em; }
+
+      h2 { font-size: 1.95em; }
+
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 75%;
+            max-height: 75vh;
+            margin: auto;
+        }
+        .center-fit-small {
+            max-width: 40%;
+            max-height: 40vh;
+            margin: auto;
+        }
+        .center-fit-tiny {
+            max-width: 25%;
+            max-height: 25vh;
+            margin: auto;
+        }
+
+        .colorvar {
+          font-feature-settings: "ss02" on;
+        }
+
+
+ul { list-style-position: outside;}
+
+li {
+  font-family: JuniusX;
+  /* font-size: 1.5em; */
+  line-height: 60px;
+}
+
+ul li:nth-child(1){
+  background: url("./images/litteris-01.jpg") no-repeat left top;
+  background-size: 120px 60px;
+  padding: 3px 0px 3px 140px;
+  /* reset styles (optional): */
+  list-style: none;
+  margin: 0;
+}
+ul li:nth-child(2){
+  background: url("./images/litteris-02.jpg") no-repeat left top;
+  background-size: 120px 60px;
+  padding: 3px 0px 3px 140px;
+  /* reset styles (optional): */
+  list-style: none;
+  margin: 0;
+}
+ul li:nth-child(3){
+  background: url("./images/litteris-03.jpg") no-repeat left top;
+  background-size: 120px 60px;
+  padding: 3px 0px 3px 140px;
+  /* reset styles (optional): */
+  list-style: none;
+  margin: 0;
+}
+ul li:nth-child(4){
+  background: url("./images/litteris-04.jpg") no-repeat left top;
+  background-size: 120px 60px;
+  padding: 3px 0px 3px 140px;
+  /* reset styles (optional): */
+  list-style: none;
+  margin: 0;
+}
+ul li:nth-child(5){
+  background: url("./images/litteris-05.jpg") no-repeat left top;
+  background-size: 120px 60px;
+  padding: 3px 0px 3px 140px;
+  /* reset styles (optional): */
+  list-style: none;
+  margin: 0;
+}
+
+    </style>
+  </head>
+  <body lang="en">
+    <div class="headerbox">
+      <h1>How Cerne Emulates a <span class="colorvar">Handwritten</span> Script</h1>
+    </div>
+    <h2>1. Emulating cursive</h2>
+    <p>
+      The Cerne font owes the greatest part of its distinctive look to its letterforms—but there’s
+      much more to it than that. The scribe of the Book of
+      Cerne wrote a cursive script, though one that leaned towards the formal:
+      many of its letters are joined, as you can see by
+      glancing at this brief extract from Book IV of Bede’s <i>Ecclesiastical
+      History</i> (in the font’s historical mode):
+    </p>
+    <div class="imgbox">
+      <img class="center-fit" src="./images/Bede-sample-2.jpg"/>
+    </div>
+    <p>
+      But you can’t make a cursive script by simply making letters bump against
+      each other; the result of that would be a mess. For two letters to join,
+      the shape of one or both must be altered. Consider, for example, the word <b>litteris</b>
+      from line eight of our Bede extract. In this illustration, the version of
+      the word on the left uses only the Cerne font’s default letterforms,
+      while the version on the right lets the font’s cursive flag fly:
+    </p>
+    <div class="imgbox">
+      <img class="center-fit-small" src="./images/litteris.jpg"/>
+    </div>
+    <p>
+      Of the eight letters of <b>litteris</b>, four (two on each end:
+      <b>li</b> and <b>is</b>) match the
+      default forms while the other four do not: these form a ligature
+      (<b>tter</b>) in the middle of the
+      word. In fact, the leftmost <b>t</b> joins with the unaltered <b>i</b> to
+      make it a five-letter ligature.
+    </p>
+    <p>
+      By ‘ligature’ we mean a sequence of letters that are (1) joined, and
+      (2) altered in shape so as to make the join between the letters look
+      right. Most fonts for western languages handle ligatures by grouping connected
+      letters into a single ‘glyph’—a unit of type that corresponds roughly to
+      individual pieces of metal type in pre-digital printing. Early
+      type founders used to group
+      several letters on a single piece of type when the letters touched or
+      overlapped, as is the case with the standard f-ligatures in the JuniusX
+      font:
+    </p>
+    <div class="imgbox">
+      <img class="center-fit-tiny" src="./images/juniusxligs.jpg"/>
+    </div>
+    <p>
+      For JuniusX (and many other fonts, both metal and digital, since the time
+      of Gutenberg), the font designer <b>anticipated all the ligatures that the
+      font needed and designed each one as a unit</b>. This doesn't work for Cerne,
+      and a moment’s thought will explain why: text that is written by hand
+      rather than mechanically reproduced will join characters in accordance
+      with a set of rules rather than by convention. These rules can produce
+      sequences of joined characters in so many possible combinations that a
+      font designer cannot anticipate them all. How many five-letter sequences
+      like <b>itter</b> would a traditionally designed western font have to
+      contain? How big would such a font have to be?
+    </p>
+    <p>
+      How, then, does Cerne form its ligatures? The technology that accomplishes
+      this task is related to that used to handle scripts
+      far more complex than the Latin script used for most western languages.
+      Of these the best known is
+      <a href="https://en.wikipedia.org/wiki/Arabic_script_in_Unicode">Arabic</a>,
+      which among other complications requires that many letters vary their
+      form in order to join or harmonize with surrounding letters. Fonts for these
+      scripts work in part by substituting variant letterforms for the defaults.
+      These variants are called <b>Contextual Alternates</b>.
+    </p>
+    <p>
+      To form the word <b>litteris</b>, a program called a ‘shaping engine’,
+      a piece of the machinery for displaying text on your screen, begins
+      with the word <b>litteris</b> as it appears on the left in the
+      illustration above, and applies
+      to it rules that are written into the font, substituting characters one
+      by one or in pairs, until it produces the final shape:
+    </p>
+    <ul>
+      <li>Text before shaping.</li>
+      <li>
+        Adjacent <b>t</b>’s altered to join cleanly.
+      </li>
+      <li>
+        Adjacent <b>e</b> and <b>insular r</b> altered.
+      </li>
+      <li>
+        <b>t</b> altered when preceded by <b>i</b>.
+      </li>
+      <li>
+        <b>t</b> altered when followed by <b>high e</b>.
+      </li>
+    </ul>
+    <p>
+      The process looks involved, but the shaping engine handles it speedily
+      and invisibly, so that the
+      reader is (ideally) completely unaware of it. And from the font
+      maker’s point of view, designing a few variant shapes of <b>t</b>,
+      <b>e</b>, and <b>r</b> and writing the rules that make all this magic
+      happen is far less work than designing perhaps dozens of ligatures
+      involving those letters—and thousands more to take account of the other
+      letters of the alphabet.
+    </p>
+    <p>
+      The result is a compact font that can be quickly downloaded with a
+      web page and yet contains within it the thousands of ligatures needed
+      to approximate the look of a hand-written medieval script.
+    </p>
+    <h2>2. Varying letterforms</h2>
+    <p>
+      In any script produced by hand, letterforms are highly variable. This
+      variability contributes greatly to the beauty of handwriting.
+      Some variability
+      is a natural byproduct of the fact that a scribe is not a machine, while
+      some is the result of scribal habit or whim.
+    </p>
+    <p>
+      A computer, of course, is a machine, and it is incapable of whimsy, so
+      reproducing the variability of handwriting is difficult, to say the least.
+      But a computer can give the <i>impression</i> of variability. It can
+      employ pseudo-random algorithms, for example, to vary letterforms (my
+      <a href="https://github.com/psb1558/Joscelyn-font">Joscelyn</a> font uses
+      this approach for the various shapes of the letter <b>h</b>). The Cerne
+      font may at some point employ a system like this, but for now it takes
+      two approaches.
+    </p>
+    <p>
+      The first approach is to give users the ability to choose variant letterforms
+      themselves. The second is to vary letterforms automatically.
+      For example, consider these two versions of the word
+      <b>passuum</b> (in historical mode):
+    </p>
+    <div class="imgbox">
+      <img class="center-fit-small" src="./images/passuum.jpg"/>
+    </div>
+    <p>
+      The most obvious difference between the two words is that the one on
+      the right uses a ligature for the doubled insular <b>s</b> while the
+      one on the left does not. Both are consistent with the usage of the
+      Cerne scribe, whose rule for producing this ligature seems to have been
+      (admittedly oversimplifying a bit) “whenever I feel like it.” The Cerne
+      font does not attempt to reproduce the scribe’s whimsy, but instead
+      includes the ligature in the <b>dlig</b> (Discretionary Ligatures) feature. Users can turn
+      this feature on for words with doubled <b>s</b> when they want to—when
+      whimsy strikes. Another way to produce variant letterforms is with
+      the features
+      <b>ss04</b> (Stylistic Set 4, “Word-final forms”), which has no effect
+      except at the ends of words, and
+      <b>ss05</b> (Stylistic Set 5, “Miscellaneous alternates”). The
+      number of alternates available via these methods is small but growing
+      (as of version 0.010).
+    </p>
+    <p>
+      But if you look more carefully at the word on the left, you may notice
+      that the two instances of <b>s</b> and the two instances of <b>u</b>
+      are different from each other. The differences are subtle, since this
+      scribe’s work is remarkably uniform, and
+      extreme variations can be distracting. Most readers won’t notice
+      the differences, but this feature still supports a general impression of
+      handwritten variability.
+    </p>
+    <p>
+      Doubled letters vary automatically in Cerne via the <b>calt</b> (Contextual
+      Alternates) feature, which is on by default in every major application
+      except for Microsoft Word, where it must be turned on explicitly.
+    </p>
+    <h2>3. Inside a Color Font</h2>
+    <p>
+      You know, of course, that a conventional font can be rendered in any
+      color: color text is all over the web, and
+      it’s frequently used for titles and running heads in printed books. A
+      color font is different from a conventional font in that the colors
+      in which text is rendered are chosen by the font designer, not by the
+      font’s user. Further, a single glyph in a color font can
+      have any number of colors and combine them in any number of ways.
+      Cerne has five colors:
+    </p>
+    <div class="imgbox">
+      <img class="center-fit-tiny" src="./images/Cerne-colors.jpg"/>
+    </div>
+    <p>
+      These are based on colors found in the Book of Cerne, but to compensate
+      for the degradation of the colors over the centuries, and the
+      darkening of the parchment, the last four of them,
+      used for decoration, have been adjusted with reference to
+      pigments likely to have been used in the ninth century: cinnabar, yellow
+      ochre, verdigris, and azurite. The saturation of these colors has
+      been reduced so as to increase contrast with the text color.
+    </p>
+    <p>
+      Inside the font, each character consists of at least two <b>layers</b>, and
+      often more—a layer being like a character (or glyph), but meant to be
+      combined with other layers. Each layer is rendered in one of the font’s
+      five colors. For an illustration, let’s look at the
+      letter <b>M</b>,
+      which has two fill colors (the background, by the way, is copied from
+      images of the book itself, but lightened by about 50%):
+    </p>
+    <div class="imgbox">
+      <img class="center-fit-tiny" src="./images/M-sample.jpg"/>
+    </div>
+    <p>
+      The font contains four layers for this glyph. The first is a <b>fallback
+      layer</b>. It’s there to guarantee that the font will be usable by
+      applications that know nothing about color fonts. This layer has no
+      color, and it is ignored by applications that recognize color fonts.
+    </p>
+    <p>
+      The second layer contains everything in the text color—a dark reddish brown.
+    </p>
+    <p>
+      The third layer contains everything in red.
+    </p>
+    <p>
+      The fourth layer contains everything in blue.
+    </p>
+    <div class="imgbox">
+      <img class="center-fit-small" src="./images/M-layers.jpg"/>
+    </div>
+    <p>
+      The application that displays color text renders the three color layers
+      one by one, aligning them exactly. If you’re
+      thinking that this is an inefficient way of going about things, you
+      may be right—but modern font technology is highly optimized with respect
+      to both speed and file size: the web version of Cerne (for which file
+      size is important) is tiny, and if modern displays render a color font
+      more slowly than a conventional one, the difference is not noticeable.
+    </p>
+    <p>
+      Beyond this, the details are arcane. There are several competing formats
+      for color fonts. The two most widely used are the COLR format, developed
+      by Microsoft, and the SVG format, supported by Adobe applications, among
+      others. The desktop version of Cerne packages both of these formats in a
+      single file. The
+      web version uses only the COLR format, since all major browsers
+      recognize that. The web version including only a single format has the
+      advantage of keeping the file small: with a moderately fast internet
+      connection it can be downloaded almost instantly.
+    </p>
+  </bod0y>
+</html>

@@ -4,14 +4,14 @@
   font-weight: normal;
   font-style:normal;
 }
-/*
+
 @font-face {
   font-family: 'JuniusX';
   src:url("./JuniusX-Bold.woff2");
   font-weight: bold;
   font-style:normal;
 }
-*/
+
 
 @font-face {
   font-family: 'Cerne';
@@ -76,6 +76,13 @@
       font-family: Cerne;
       font-weight: 400;
       font-size: 5em;
+  }
+
+  h2 {
+      font-family: JuniusX;
+      font-weight: 700;
+      font-size: 2em;
+      padding: 10px 0px 0px 0px;
   }
 
   p {
