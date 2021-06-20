@@ -79,7 +79,7 @@ name = openTypeNameLicenseURL;
 value = "http://scripts.sil.org/OFL";
 }
 );
-date = "2021-06-19 19:35:39 +0000";
+date = "2021-06-20 04:04:30 +0000";
 designer = "Peter S. Baker";
 designerURL = "https://github.com/psb1558/Cerne-font";
 familyName = Cerne;
@@ -365,10 +365,10 @@ name = "Color Palettes";
 value = (
 (
 "105,76,66,255",
-"209,115,105,255",
-"237,202,104,255",
+"235,132,106,255",
+"247,212,94,255",
 "123,173,149,255",
-"77,122,219,255"
+"105,138,174,255"
 )
 );
 }
@@ -140956,5 +140956,5 @@ z = {
 };
 unitsPerEm = 2048;
 versionMajor = 0;
-versionMinor = 10;
+versionMinor = 11;
 }
