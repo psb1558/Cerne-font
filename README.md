@@ -19,7 +19,8 @@ and a text color based on the colors found in the manuscript.
 
 Check out the [specimen page](https://psb1558.github.io/Cerne-font/), where you
 can enter a text of your choice, switch back and forth between modern and
-historical mode, and play with the colors.
+historical mode, and play with the colors. If you’re curious about how a font
+like this works, read [How Cerne Emulates a Handwritten Script](https://psb1558.github.io/Cerne-font/howitworks.html)
 
 The font will come in two versions: a compact webfont with a COLR table, usable
 in all major browsers, and a desktop version with both COLR and SVG tables,
