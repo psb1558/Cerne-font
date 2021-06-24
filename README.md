@@ -32,5 +32,5 @@ not support color: they will treat it like an ordinary font.
 There will also be a companion font containing selected decorative capitals
 from the manuscript.
 
-The current version is a beta, version 0.014, neither complete nor guaranteed
-to be stable. ETA for an initial release: late summer 2021.
+The current version is 1.000, the first stable version and the first release
+of this font.
