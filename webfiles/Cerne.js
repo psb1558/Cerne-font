@@ -123,6 +123,7 @@ $(document).ready(function(){
 				else if ( tag.length == 5 ) {
 					var basetag = tag.substring(0,4);
 					var tagindex = tag.substring(4);
+					alert(basetag)
 					fstring = featureString(fstring, basetag, tagindex);
 				}
 				else {
@@ -134,7 +135,7 @@ $(document).ready(function(){
 			}
 		});
 
-		alert(fstring)
+		//alert(fstring)
 
 		if (fstring.length == 0)
 			fstring = "normal";
