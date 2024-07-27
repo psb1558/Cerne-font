@@ -38,6 +38,8 @@ $(document).ready(function(){
 		missenlicra cynna weolcscylle ⁊ muscule, ⁊ on þam beoð oft gemette þa \
 		betstan meregrotan ælces hiwes.";
 
+	var usercolor = "#000000";
+
 	// Clear the menus and boxes (in case the page is being reloaded) and
 	// display the default (modern English) text.
 
@@ -111,7 +113,8 @@ $(document).ready(function(){
 	// unchecked.
 
 	$("#colorinput").change(function(){
-		$("#textbox").css("color", $("#colorinput").val())
+		usercolor = $("#colorinput").val()
+		$("#textbox").css("color", usercolor)
 	})
 
 	$(".check").change(function() {
@@ -144,6 +147,7 @@ $(document).ready(function(){
 
 		if (showcolor) {
 			$(".colorpicker").css("display", "inline")
+			$("#textbox").css("color", usercolor)
 		}
 		else {
 			$(".colorpicker").css("display", "none")
