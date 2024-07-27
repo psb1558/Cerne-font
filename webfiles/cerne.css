@@ -55,6 +55,10 @@
       margin-bottom: 20px;
   }
 
+  .colorpicker {
+    display: inline;
+  }
+
   .check {
       line-height: 2.5em;
       white-space: nowrap;
