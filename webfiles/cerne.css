@@ -57,7 +57,13 @@
 
   .colorpicker {
     display: inline;
-  }
+    line-height: 2.5em;
+    white-space: nowrap;
+    background-color: lightgray;
+    padding: 5px 8px 5px 5px;
+    margin: 5px;
+    font-family: JuniusX;
+}
 
   .check {
       line-height: 2.5em;
