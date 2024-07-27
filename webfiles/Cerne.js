@@ -112,7 +112,12 @@ $(document).ready(function(){
 	// default values. So we specify everything we want every time a box is checked or
 	// unchecked.
 
-	$("#colorinput").change(function(){
+	// $("#colorinput").change(function(){
+	// 	usercolor = $("#colorinput").val()
+	// 	$("#textbox").css("color", usercolor)
+	// })
+
+	$("#colorinput").on("input", function(){
 		usercolor = $("#colorinput").val()
 		$("#textbox").css("color", usercolor)
 	})
