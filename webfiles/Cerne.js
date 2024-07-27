@@ -123,10 +123,10 @@ $(document).ready(function(){
 				else if ( tag.length == 5 ) {
 					var basetag = tag.substring(0,4);
 					var tagindex = tag.substring(4);
-					alert(basetag)
 					fstring = featureString(fstring, basetag, tagindex);
 				}
 				else {
+					alert(tag)
 					fstring = featureString(fstring, tag, "on");
 				}
 			}
