@@ -134,6 +134,8 @@ $(document).ready(function(){
 			}
 		});
 
+		alert(fstring)
+
 		if (fstring.length == 0)
 			fstring = "normal";
 

@@ -56,7 +56,7 @@
   }
 
   .colorpicker {
-    display: inline;
+    display: none;
     line-height: 2.5em;
     white-space: nowrap;
     background-color: lightgray;
