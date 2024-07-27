@@ -110,9 +110,14 @@ $(document).ready(function(){
 	// default values. So we specify everything we want every time a box is checked or
 	// unchecked.
 
+	$("#colorinput").change(function(){
+		$("#textbox").css("color", $("#colorinput").val())
+	})
+
 	$(".check").change(function() {
 
 		fstring = "";
+		showcolor = false
 
 		$("input").each(function() {
 			var tag = $(this).attr("id");
@@ -126,7 +131,9 @@ $(document).ready(function(){
 					fstring = featureString(fstring, basetag, tagindex);
 				}
 				else {
-					alert(tag)
+					if (tag == "ss06") {
+						showcolor = true
+					}
 					fstring = featureString(fstring, tag, "on");
 				}
 			}
@@ -135,7 +142,12 @@ $(document).ready(function(){
 			}
 		});
 
-		//alert(fstring)
+		if (showcolor) {
+			$(".colorpicker").css("display", "inline")
+		}
+		else {
+			$(".colorpicker").css("display", "none")
+		}
 
 		if (fstring.length == 0)
 			fstring = "normal";
